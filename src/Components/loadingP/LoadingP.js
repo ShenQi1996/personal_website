@@ -24,14 +24,7 @@ function LoadingP() {
     <div className="screen1">
       <div className="display">
         <div className="hero">
-          <div className="box1">
-            <h1 className="hero-con">FRONT-END</h1>
-          </div>
-          <div className="box2">
-            <h1 className="hero-con">DEVELOPER</h1>
-            <h2>Sam Qi</h2>
-          </div>
-          <div className="box3"></div>
+          <div className="loading"></div>
         </div>
       </div>
     </div>

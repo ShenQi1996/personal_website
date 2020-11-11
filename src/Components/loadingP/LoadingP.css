@@ -1,11 +1,18 @@
 .screen1 {
-  background: chartreuse;
   position: absolute;
   height: 100vh;
   display: grid;
   visibility: visible;
   width: 100%;
   overflow: hidden;
+  animation: vish 1s ease-in-out 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes vish {
+  to{
+    transform: scale(0);
+    transform-origin: top;
+  }
 }
 
 .display {
@@ -18,120 +25,30 @@
   grid-template-rows: 1fr;
 }
 
+
 .hero {
-  background-color: white;
+  background-color: black;
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
   flex-direction: column;
-  animation: mL 2s ease-out 3s;
+  animation: mL 1s ease-out;
   animation-fill-mode: forwards;
 }
 @keyframes mL {
   from {
-    transform: scaleX(1);
-    transform-origin: left;
+    opacity: 1;
   }
   to {
-    transform: scaleX(0);
-    transform-origin: left;
+    opacity: 0;
   }
 }
 
-.box1 {
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  animation: moveT 2s ease-out 2s;
-  animation-fill-mode: forwards;
-}
-@keyframes moveT {
-  from {
-    transform-origin: bottom;
-  }
-  to {
-    transform: translateY(-500px);
-  }
-}
-
-.box2 {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  position: relative;
-  background-color: black;
-  width: 100%;
-  height: 100%;
-  flex-direction: column;
-  animation: moveB 2s ease-out 2s;
-  animation-fill-mode: forwards;
-}
-@keyframes moveB {
-  from {
-    transform-origin: top;
-  }
-  to {
-    transform: translateY(500px);
-  }
-}
-
-.box1:before {
-  content: "";
-  background-color: #ffffff;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  animation: moveL 2s ease-out;
-  display: flex;
-}
-
-@keyframes moveL {
-  from {
-    transform: scaleX(0.1);
-    transform-origin: left;
-  }
-  to {
-    transform: scaleX(1);
-    transform-origin: left;
-  }
-}
-
-.box2:before {
-  content: "";
-  background-color: #ffffff;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  animation: moveR ease-out 2s;
-}
-
-@keyframes moveR {
-  from {
-    transform: scaleX(0.1);
-    transform-origin: right;
-  }
-  to {
-    transform: scaleX(1);
-    transform-origin: right;
-  }
-}
-.hero-con {
-  color: rgb(0, 0, 0);
-  font-size: 65px;
-  z-index: 1;
-  transform: scale(1, 4);
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.box2 > h2 {
-  z-index: 1;
-  font-size: 20px;
-  color: blanchedalmond;
-  padding-top: 30px;
+.loading{
+  background-image: url("./90OK.gif");
+  background-size: cover;
+  background-position: center center;
+  width: 50vh;
+  height: 50vh;
 }
