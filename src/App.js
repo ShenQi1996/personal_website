@@ -1,14 +1,21 @@
-import React from "react";
 import "./App.css";
-
-import NavR from "./Components/NavR/NavR";
-import LoadingP from "./Components/loadingP/LoadingP";
-
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Services from "./components/Services/Services";
+import Skills from "./components/Skills/Skills";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="App">
-      <LoadingP />
-      <NavR />
+      <Navbar />
+      <Home />
+      <About />
+      <Services />
+      <Skills />
+      <Contact />
+      <Footer />
     </div>
   );
 }
