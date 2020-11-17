@@ -11,7 +11,7 @@ function Navbar() {
         <div class="max-width">
           <div class="logo">
             <a href="#">
-              Portfo<span>lio.</span>
+              Sam<span>Qi.</span>
             </a>
           </div>
           <ul class="menu">
@@ -33,6 +33,11 @@ function Navbar() {
             <li>
               <a href="#skills" class="menu-btn">
                 Skills
+              </a>
+            </li>
+            <li>
+              <a href="#Projects" class="menu-btn">
+                Projects
               </a>
             </li>
             <li>

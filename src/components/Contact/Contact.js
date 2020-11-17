@@ -19,21 +19,21 @@ function Contact() {
                 <i class="fas fa-user"></i>
                 <div class="info">
                   <div class="head">Name</div>
-                  <div class="sub-title">Prakash Shahi</div>
+                  <div class="sub-title">San Qu</div>
                 </div>
               </div>
               <div class="row">
                 <i class="fas fa-map-marker-alt"></i>
                 <div class="info">
                   <div class="head">Address</div>
-                  <div class="sub-title">Surkhet, Nepal</div>
+                  <div class="sub-title">New York, Brooklyn</div>
                 </div>
               </div>
               <div class="row">
                 <i class="fas fa-envelope"></i>
                 <div class="info">
                   <div class="head">Email</div>
-                  <div class="sub-title">abc@gmail.com</div>
+                  <div class="sub-title">qisam1989@gmail.com</div>
                 </div>
               </div>
             </div>

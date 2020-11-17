@@ -9,7 +9,7 @@
 }
 .navbar.sticky {
   padding: 15px 0;
-  background: crimson;
+  background: #614eca;
 }
 .navbar .max-width {
   display: flex;
@@ -22,7 +22,7 @@
   font-weight: 600;
 }
 .navbar .logo a span {
-  color: crimson;
+  color: #614eca;
   transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span {
@@ -41,7 +41,7 @@
   transition: color 0.3s ease;
 }
 .navbar .menu li a:hover {
-  color: crimson;
+  color: #614eca;
 }
 .navbar.sticky .menu li a:hover {
   color: #fff;
@@ -58,7 +58,7 @@
   position: fixed;
   height: 45px;
   width: 42px;
-  background: crimson;
+  background: #614eca;
   right: 30px;
   bottom: 10px;
   text-align: center;
@@ -80,4 +80,63 @@
 }
 .scroll-up-btn:hover {
   filter: brightness(90%);
+}
+
+/* responsive media query start */
+@media (max-width: 991px) {
+  .max-width {
+    padding: 0 50px;
+  }
+}
+@media (max-width: 947px) {
+  .menu-btn {
+    display: block;
+    z-index: 999;
+  }
+  .menu-btn i.active:before {
+    content: "\f00d";
+  }
+  .navbar .menu {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    background: #111;
+    text-align: center;
+    padding-top: 80px;
+    transition: all 0.3s ease;
+  }
+  .navbar .menu.active {
+    left: 0;
+  }
+  .navbar .menu li {
+    display: block;
+  }
+  .navbar .menu li a {
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 25px;
+  }
+  .max-width {
+    max-width: 930px;
+  }
+  .navbar .menu li a:hover {
+    color: #614eca;
+  }
+}
+@media (max-width: 690px) {
+  .max-width {
+    padding: 0 23px;
+  }
+}
+@media (max-width: 500px) {
+  .scroll-up-btn {
+    right: 15px;
+    bottom: 15px;
+    height: 38px;
+    width: 35px;
+    font-size: 23px;
+    line-height: 38px;
+  }
 }
