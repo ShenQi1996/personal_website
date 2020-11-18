@@ -7,9 +7,9 @@ import Prof4 from "../images/profile-4.jpeg";
 
 function Projects() {
   return (
-    <section class="Projects" id="Projects">
+    <section class="projects" id="projects">
       <div class="max-width">
-        <h2 class="title">My Projects</h2>
+        <h2 class="title">My projects</h2>
         <div class="carousel owl-carousel">
           <div class="card">
             <div class="box">

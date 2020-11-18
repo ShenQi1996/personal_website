@@ -36,7 +36,7 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <a href="#Projects" class="menu-btn">
+              <a href="#projects" class="menu-btn">
                 Projects
               </a>
             </li>

@@ -1,19 +1,19 @@
 /* Projects section styling */
-.Projects {
+.projects {
   color: #fff;
   background: #111;
 }
-.Projects .title::after {
+.projects .title::after {
   background: #111;
   content: "what i provide";
 }
-.Projects .title::before {
+.projects .title::before {
   background: #fff;
 }
-.Projects .title::after {
+.projects .title::after {
   content: "who with me";
 }
-.Projects .carousel .card {
+.projects .carousel .card {
   background: #222;
   border-radius: 6px;
   padding: 25px 35px;
@@ -21,25 +21,25 @@
   overflow: hidden;
   transition: all 0.3s ease;
 }
-.Projects .carousel .card:hover {
+.projects .carousel .card:hover {
   background: #614eca;
 }
-.Projects .carousel .card .box {
+.projects .carousel .card .box {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
 }
-.Projects .carousel .card:hover .box {
+.projects .carousel .card:hover .box {
   transform: scale(1.05);
 }
-.Projects .carousel .card .text {
+.projects .carousel .card .text {
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
 }
-.Projects .carousel .card img {
+.projects .carousel .card img {
   height: 150px;
   width: 150px;
   object-fit: cover;
@@ -47,7 +47,7 @@
   border: 5px solid #614eca;
   transition: all 0.3s ease;
 }
-.Projects .carousel .card:hover img {
+.projects .carousel .card:hover img {
   border-color: #fff;
 }
 .owl-dots {

@@ -19,7 +19,7 @@ function Contact() {
                 <i class="fas fa-user"></i>
                 <div class="info">
                   <div class="head">Name</div>
-                  <div class="sub-title">San Qu</div>
+                  <div class="sub-title">San Qi</div>
                 </div>
               </div>
               <div class="row">

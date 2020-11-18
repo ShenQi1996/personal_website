@@ -11,7 +11,7 @@ function Home() {
           <div class="text-3">
             And I'm a <span class="typing"></span>
           </div>
-          <a href="#">Hire me</a>
+          <a href="#about">Hire me</a>
         </div>
       </div>
     </section>

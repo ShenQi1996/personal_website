@@ -4,6 +4,10 @@ footer {
   padding: 15px 23px;
   color: #fff;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 footer span a {
   color: crimson;
@@ -11,4 +15,11 @@ footer span a {
 }
 footer span a:hover {
   text-decoration: underline;
+}
+.icons1 {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  justify-content: space-between;
+  width: 20%;
 }
