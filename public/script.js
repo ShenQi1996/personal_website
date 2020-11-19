@@ -36,7 +36,7 @@ $(document).ready(function () {
   // typing text animation script
   var typed = new Typed(".typing", {
     strings: [
-      "Developer",
+      "Front-End Developer",
       "Blogger",
       "Designer",
       "Freelancer",
@@ -49,7 +49,7 @@ $(document).ready(function () {
 
   var typed = new Typed(".typing-2", {
     strings: [
-      "Developer",
+      "Front-End Developer",
       "Blogger",
       "Designer",
       "Freelancer",

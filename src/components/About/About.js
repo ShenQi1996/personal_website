@@ -13,17 +13,12 @@ function About() {
           </div>
           <div class="column right">
             <div class="text">
-              I'm Prakash and I'm a <span class="typing-2"></span>
+              I'm Sam and I'm a <span class="typing-2"></span>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut
-              voluptatum eveniet doloremque autem excepturi eaque, sit
-              laboriosam voluptatem nisi delectus. Facere explicabo hic minus
-              accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio
-              consequatur ipsam possimus veritatis, placeat, ab molestiae velit
-              inventore exercitationem consequuntur blanditiis omnis beatae.
-              Dolor iste excepturi ratione soluta quas culpa voluptatum
-              repudiandae harum non.
+               I am a person that loves developing, designing, and delivering software and websits used by all kinds of business.
+               A proven leader with number of years of experience who is driven to make the world a better place one solution at a time and 
+               create a personal brand that people remember me, build things that represent me, and appreciate people that helped me. 
             </p>
             <a href="#">Download CV</a>
           </div>

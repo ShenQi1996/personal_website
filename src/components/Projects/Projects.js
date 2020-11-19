@@ -14,28 +14,28 @@ function Projects() {
           <div class="card">
             <div class="box">
               <img src={Prof1} alt="" />
-              <div class="text">Someone name</div>
+              <div class="text"> NETFLIX</div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
           </div>
           <div class="card">
             <div class="box">
               <img src={Prof2} alt="" />
-              <div class="text">Someone name</div>
+              <div class="text">WEATER APP</div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
           </div>
           <div class="card">
             <div class="box">
               <img src={Prof3} alt="" />
-              <div class="text">Someone name</div>
+              <div class="text">WEBPAGE</div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
           </div>
           <div class="card">
             <div class="box">
               <img src={Prof4} alt="" />
-              <div class="text">Someone name</div>
+              <div class="text">WEBPAGE</div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
           </div>

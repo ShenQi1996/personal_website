@@ -11,7 +11,7 @@
   background: #fff;
 }
 .projects .title::after {
-  content: "who with me";
+  content: "few of my work";
 }
 .projects .carousel .card {
   background: #222;

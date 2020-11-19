@@ -29,28 +29,28 @@ function Skills() {
             <div class="bars">
               <div class="info">
                 <span>CSS</span>
-                <span>60%</span>
+                <span>80%</span>
               </div>
               <div class="line css"></div>
             </div>
             <div class="bars">
               <div class="info">
                 <span>JavaScript</span>
-                <span>80%</span>
+                <span>60%</span>
               </div>
               <div class="line js"></div>
             </div>
             <div class="bars">
               <div class="info">
-                <span>PHP</span>
-                <span>50%</span>
+                <span>ReactJS</span>
+                <span>70%</span>
               </div>
               <div class="line php"></div>
             </div>
             <div class="bars">
               <div class="info">
-                <span>MySQL</span>
-                <span>70%</span>
+                <span>Firebase</span>
+                <span>50%</span>
               </div>
               <div class="line mysql"></div>
             </div>

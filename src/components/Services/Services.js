@@ -12,8 +12,7 @@ function Services() {
               <i class="fas fa-paint-brush"></i>
               <div class="text">Web Design</div>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem
-                quia sunt, quasi quo illo enim.
+              The web design for the content needs to be timely and relevant—compelling content that keeps a visitor on your site.
               </p>
             </div>
           </div>
@@ -22,18 +21,16 @@ function Services() {
               <i class="fas fa-chart-line"></i>
               <div class="text">Advertising</div>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem
-                quia sunt, quasi quo illo enim.
+              A well-planned website requires a person with web designer, web developer, content strategist in order to reach it's full potential.
               </p>
             </div>
           </div>
           <div class="card">
             <div class="box">
               <i class="fas fa-code"></i>
-              <div class="text">Apps Design</div>
+              <div class="text">Front-End Dveelopment</div>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem
-                quia sunt, quasi quo illo enim.
+               A well-designb website need a well deevloper to make it happen. The developer is what makes the website.
               </p>
             </div>
           </div>

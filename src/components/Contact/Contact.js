@@ -10,16 +10,14 @@ function Contact() {
           <div class="column left">
             <div class="text">Get in Touch</div>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Dignissimos harum corporis fuga corrupti. Doloribus quis soluta
-              nesciunt veritatis vitae nobis?
+             Get in touch with me. My working hours are Monday to Friday from 10 am to 6 pm EST.
             </p>
             <div class="icons">
               <div class="row">
                 <i class="fas fa-user"></i>
                 <div class="info">
                   <div class="head">Name</div>
-                  <div class="sub-title">San Qi</div>
+                  <div class="sub-title">Sam Qi</div>
                 </div>
               </div>
               <div class="row">
@@ -34,6 +32,13 @@ function Contact() {
                 <div class="info">
                   <div class="head">Email</div>
                   <div class="sub-title">qisam1989@gmail.com</div>
+                </div>
+              </div>
+              <div class="row">
+                <i class="fa fa-phone"></i>
+                <div class="info">
+                  <div class="head">Phone</div>
+                  <div class="sub-title">347-757-7730</div>
                 </div>
               </div>
             </div>
