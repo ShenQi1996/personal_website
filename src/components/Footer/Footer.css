@@ -16,10 +16,3 @@ footer span a {
 footer span a:hover {
   text-decoration: underline;
 }
-.icons1 {
-  display: flex;
-  align-items: center;
-  margin: 10px;
-  justify-content: space-between;
-  width: 20%;
-}

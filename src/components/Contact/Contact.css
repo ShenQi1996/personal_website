@@ -95,6 +95,10 @@
   background: none;
 }
 
+.MuiSvgIcon-root{
+  color: #614eca;
+}
+
 /* responsive media query start */
 
 @media (max-width: 947px) {

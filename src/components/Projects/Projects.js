@@ -15,28 +15,28 @@ function Projects() {
             <div class="box">
               <img src={Prof1} alt="" />
               <div class="text"> NETFLIX</div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>This project I am using ReactJS, HTML, CSS and Firebase to make this project.</p>
             </div>
           </div>
           <div class="card">
             <div class="box">
               <img src={Prof2} alt="" />
               <div class="text">WEATER APP</div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>One of my first ReactJS project I have learn so much about ReactJS and HTML.</p>
             </div>
           </div>
           <div class="card">
             <div class="box">
               <img src={Prof3} alt="" />
               <div class="text">WEBPAGE</div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Website That using HTML, CSS, and ReactJS to create.</p>
             </div>
           </div>
           <div class="card">
             <div class="box">
               <img src={Prof4} alt="" />
               <div class="text">WEBPAGE</div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Website that only using HTML, CSS, and ReactJS.</p>
             </div>
           </div>
         </div>

@@ -1,5 +1,8 @@
 import React from "react";
 import "./Contact.css";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import GitHubIcon from "@material-ui/icons/GitHub";
 
 function Contact() {
   return (
@@ -39,6 +42,27 @@ function Contact() {
                 <div class="info">
                   <div class="head">Phone</div>
                   <div class="sub-title">347-757-7730</div>
+                </div>
+              </div>
+              <div class="row">
+               <LinkedInIcon  style={{ fontSize: 30 }}/>
+                <div class="info">
+                  <div class="head">Linkedin</div>
+                  <div class="sub-title"> <a href="https://www.linkedin.com/in/shenqi1993/" target="_blank" rel="">Get connected</a></div>
+                </div>
+              </div>
+              <div class="row">
+               <FacebookIcon style={{ fontSize: 30 }}/>
+                <div class="info">
+                  <div class="head">Facebook</div>
+                  <div class="sub-title"><a href="https://www.facebook.com/qi.shen.92" target="_blank" rel=""> Learn More About Me</a></div>
+                </div>
+              </div>
+              <div class="row">
+               <GitHubIcon style={{ fontSize: 30 }} />
+                <div class="info">
+                  <div class="head">Github</div>
+                  <div class="sub-title"><a href="https://github.com/ShenQi1996" target="_blank" rel="">More Projects</a></div>
                 </div>
               </div>
             </div>

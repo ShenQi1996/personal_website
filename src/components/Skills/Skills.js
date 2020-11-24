@@ -9,14 +9,17 @@ function Skills() {
           <div class="column left">
             <div class="text">My creative skills & experiences.</div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Dignissimos, ratione error est recusandae consequatur, iusto illum
-              deleniti quidem impedit, quos quaerat quis minima sequi.
-              Cupiditate recusandae laudantium esse, harum animi aspernatur
-              quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem
-              illum. Ad delectus natus aut hic explicabo minus quod.
+            Web Developer/ Product Data Coordinator- BHMedWear, Brooklyn, NY.
             </p>
-            <a href="#">Read more</a>
+            <p>
+            Develop data tracking and monitoring systems with SQL server
+            Establish data entry criteria and standards
+            Analyze data to identify trends and project program outcomes using Google Analytics
+            Worked with the Management team to develop and launch a new/ updated internal website
+            Completed daily, weekly, monthly, period and annual reports for corporate
+            Provide IT services for all new development with my programming skills
+            </p>
+            <a href="https://www.linkedin.com/in/shenqi1993/" target="_blank">Read more in my Linkedin</a>
           </div>
           <div class="column right">
             <div class="bars">

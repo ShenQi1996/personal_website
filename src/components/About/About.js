@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import profile from "../images/profile-1.jpeg";
+import profile from "../images/p1.jpg";
 
 function About() {
   return (
@@ -20,7 +20,7 @@ function About() {
                A proven leader with number of years of experience who is driven to make the world a better place one solution at a time and 
                create a personal brand that people remember me, build things that represent me, and appreciate people that helped me. 
             </p>
-            <a href="#">Download CV</a>
+            <a href="https://drive.google.com/file/d/1IvUbyUA4O8TBak6t6R3AH2zSBBv9bQix/view?usp=sharing" target="_blank">Download CV</a>
           </div>
         </div>
       </div>

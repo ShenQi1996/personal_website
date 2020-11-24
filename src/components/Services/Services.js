@@ -30,7 +30,7 @@ function Services() {
               <i class="fas fa-code"></i>
               <div class="text">Front-End Dveelopment</div>
               <p>
-               A well-designb website need a well deevloper to make it happen. The developer is what makes the website.
+               A well-design website needs a great developer to make it happen. The developer is who makes the website.
               </p>
             </div>
           </div>
