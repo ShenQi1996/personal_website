@@ -1,9 +1,9 @@
 import React from "react";
 import "./Projects.css";
-import Prof1 from "../images/profile-1.jpeg";
-import Prof2 from "../images/profile-2.jpeg";
-import Prof3 from "../images/profile-3.jpeg";
-import Prof4 from "../images/profile-4.jpeg";
+import P1 from "../images/NETFLIX.PNG";
+import P2 from "../images/WEATER.PNG";
+import P3 from "../images/WEB1.PNG";
+import P4 from "../images/WEB2.PNG";
 
 function Projects() {
   return (
@@ -13,28 +13,34 @@ function Projects() {
         <div class="carousel owl-carousel">
           <div class="card">
             <div class="box">
-              <img src={Prof1} alt="" />
+              <img src={P1} alt="" />
               <div class="text"> NETFLIX</div>
-              <p>This project I am using ReactJS, HTML, CSS and Firebase to make this project.</p>
+              <p>
+                This project I am using ReactJS, HTML, CSS and Firebase to make
+                this project.
+              </p>
             </div>
           </div>
           <div class="card">
             <div class="box">
-              <img src={Prof2} alt="" />
+              <img src={P2} alt="" />
               <div class="text">WEATER APP</div>
-              <p>One of my first ReactJS project I have learn so much about ReactJS and HTML.</p>
+              <p>
+                One of my first ReactJS project I have learn so much about
+                ReactJS and HTML.
+              </p>
             </div>
           </div>
           <div class="card">
             <div class="box">
-              <img src={Prof3} alt="" />
+              <img src={P3} alt="" />
               <div class="text">WEBPAGE</div>
               <p>Website That using HTML, CSS, and ReactJS to create.</p>
             </div>
           </div>
           <div class="card">
             <div class="box">
-              <img src={Prof4} alt="" />
+              <img src={P4} alt="" />
               <div class="text">WEBPAGE</div>
               <p>Website that only using HTML, CSS, and ReactJS.</p>
             </div>

@@ -1,3 +1,4 @@
+export const effects = `
 $(document).ready(function () {
   $(window).scroll(function () {
     // sticky navbar on scroll script
@@ -81,4 +82,5 @@ $(document).ready(function () {
       },
     },
   });
-});
+})
+`;
