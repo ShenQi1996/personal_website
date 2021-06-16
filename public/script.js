@@ -1,4 +1,3 @@
-export const effects = `
 $(document).ready(function () {
   $(window).scroll(function () {
     // sticky navbar on scroll script
@@ -36,26 +35,14 @@ $(document).ready(function () {
 
   // typing text animation script
   var typed = new Typed(".typing", {
-    strings: [
-      "Front-End Developer",
-      "Blogger",
-      "Designer",
-      "Freelancer",
-      "Personal Trainer",
-    ],
+    strings: ["FullStack Developer", "Blogger", "Designer", "Personal Trainer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
   });
 
   var typed = new Typed(".typing-2", {
-    strings: [
-      "Front-End Developer",
-      "Blogger",
-      "Designer",
-      "Freelancer",
-      "Personal Trainer",
-    ],
+    strings: ["FullStack Developer", "Blogger", "Designer", "Personal Trainer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
@@ -82,5 +69,4 @@ $(document).ready(function () {
       },
     },
   });
-})
-`;
+});

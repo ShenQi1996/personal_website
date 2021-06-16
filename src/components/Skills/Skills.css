@@ -64,13 +64,16 @@
   width: 80%;
 }
 .skills-content .right .js::before {
-  width: 60%;
+  width: 95%;
 }
-.skills-content .right .php::before {
+.skills-content .right .ReactJs::before {
   width: 70%;
 }
-.skills-content .right .mysql::before {
-  width: 50%;
+.skills-content .right .Firebase::before {
+  width: 78%;
+}
+.skills-content .right .Ruby_on_Rails::before {
+  width: 73%;
 }
 
 /* responsive media query start */

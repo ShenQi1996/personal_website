@@ -1,11 +1,13 @@
 import React from "react";
+import HorizontalSplitIcon from "@material-ui/icons/HorizontalSplit";
+import EjectIcon from "@material-ui/icons/Eject";
 import "./Navbar.css";
 
 function Navbar() {
   return (
     <div>
       <div class="scroll-up-btn">
-        <i class="fas fa-angle-up"></i>
+        <EjectIcon style={{ fontSize: 30, color: "white" }} />
       </div>
       <nav class="navbar">
         <div class="max-width">
@@ -47,7 +49,7 @@ function Navbar() {
             </li>
           </ul>
           <div class="menu-btn">
-            <i class="fas fa-bars"></i>
+            <HorizontalSplitIcon style={{ fontSize: 30, color: "darkgray" }} />
           </div>
         </div>
       </nav>

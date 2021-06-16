@@ -3,7 +3,10 @@ import "./Contact.css";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
-
+import PhoneIcon from "@material-ui/icons/Phone";
+import EmailIcon from "@material-ui/icons/Email";
+import HomeIcon from "@material-ui/icons/Home";
+import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 import { db } from "../../firebase";
 
 function Contact() {
@@ -42,28 +45,28 @@ function Contact() {
             </p>
             <div class="icons">
               <div class="row">
-                <i class="fas fa-user"></i>
+                <AccountCircleIcon style={{ fontSize: 30 }} />
                 <div class="info">
                   <div class="head">Name</div>
                   <div class="sub-title">Sam Qi</div>
                 </div>
               </div>
               <div class="row">
-                <i class="fas fa-map-marker-alt"></i>
+                <HomeIcon style={{ fontSize: 30 }} />
                 <div class="info">
                   <div class="head">Address</div>
                   <div class="sub-title">New York, Brooklyn</div>
                 </div>
               </div>
               <div class="row">
-                <i class="fas fa-envelope"></i>
+                <EmailIcon style={{ fontSize: 30 }} />
                 <div class="info">
                   <div class="head">Email</div>
                   <div class="sub-title">qisam1989@gmail.com</div>
                 </div>
               </div>
               <div class="row">
-                <i class="fa fa-phone"></i>
+                <PhoneIcon style={{ fontSize: 30 }} />
                 <div class="info">
                   <div class="head">Phone</div>
                   <div class="sub-title">347-757-7730</div>

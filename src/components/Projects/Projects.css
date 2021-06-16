@@ -40,10 +40,10 @@
   margin: 10px 0 7px 0;
 }
 .projects .carousel .card img {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 300px;
   object-fit: cover;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   border: 5px solid #614eca;
   transition: all 0.3s ease;
 }

@@ -1,4 +1,7 @@
 import React from "react";
+import BrushIcon from "@material-ui/icons/Brush";
+import TrendingUpIcon from "@material-ui/icons/TrendingUp";
+import CodeIcon from "@material-ui/icons/Code";
 import "./Services.css";
 
 function Services() {
@@ -9,28 +12,32 @@ function Services() {
         <div class="serv-content">
           <div class="card">
             <div class="box">
-              <i class="fas fa-paint-brush"></i>
+              <BrushIcon style={{ fontSize: 50, color: "darkgray" }} />
               <div class="text">Web Design</div>
               <p>
-              The web design for the content needs to be timely and relevant—compelling content that keeps a visitor on your site.
+                The web design for the content needs to be timely and
+                relevant—compelling content that keeps a visitor on your site.
               </p>
             </div>
           </div>
           <div class="card">
             <div class="box">
-              <i class="fas fa-chart-line"></i>
+              <TrendingUpIcon style={{ fontSize: 50, color: "darkgray" }} />
               <div class="text">Advertising</div>
               <p>
-              A well-planned website requires a person with web designer, web developer, content strategist in order to reach it's full potential.
+                A well-planned website requires a person with web designer, web
+                developer, content strategist in order to reach its full
+                potential.
               </p>
             </div>
           </div>
           <div class="card">
             <div class="box">
-              <i class="fas fa-code"></i>
-              <div class="text">Front-End Dveelopment</div>
+              <CodeIcon style={{ fontSize: 50, color: "darkgray" }} />
+              <div class="text">FullStack Dveelopment</div>
               <p>
-               A well-design website needs a great developer to make it happen. The developer is who makes the website.
+                A well-design website needs a great developer to make it happen.
+                The developer is who makes the website.
               </p>
             </div>
           </div>

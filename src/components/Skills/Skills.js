@@ -9,17 +9,20 @@ function Skills() {
           <div class="column left">
             <div class="text">My creative skills & experiences.</div>
             <p>
-            Web Developer/ Product Data Coordinator- BHMedWear, Brooklyn, NY.
+              Web Developer/ Product Data Coordinator- BHMedWear, Brooklyn, NY.
             </p>
             <p>
-            Develop data tracking and monitoring systems with SQL server
-            Establish data entry criteria and standards
-            Analyze data to identify trends and project program outcomes using Google Analytics
-            Worked with the Management team to develop and launch a new/ updated internal website
-            Completed daily, weekly, monthly, period and annual reports for corporate
-            Provide IT services for all new development with my programming skills
+              Develop data tracking and monitoring systems with SQL server
+              Establish data entry criteria and standards Analyze data to
+              identify trends and project program outcomes using Google
+              Analytics Worked with the Management team to develop and launch a
+              new/ updated internal website Completed daily, weekly, monthly,
+              period and annual reports for corporate Provide IT services for
+              all new development with my programming skills
             </p>
-            <a href="https://www.linkedin.com/in/shenqi1993/" target="_blank">Read more in my Linkedin</a>
+            <a href="https://www.linkedin.com/in/shenqi1993/" target="_blank">
+              Read more in my Linkedin
+            </a>
           </div>
           <div class="column right">
             <div class="bars">
@@ -39,23 +42,30 @@ function Skills() {
             <div class="bars">
               <div class="info">
                 <span>JavaScript</span>
-                <span>60%</span>
+                <span>95%</span>
               </div>
               <div class="line js"></div>
             </div>
             <div class="bars">
               <div class="info">
-                <span>ReactJS</span>
+                <span>ReactJS / Redux</span>
                 <span>70%</span>
               </div>
-              <div class="line php"></div>
+              <div class="line ReactJs"></div>
             </div>
             <div class="bars">
               <div class="info">
-                <span>Firebase</span>
-                <span>50%</span>
+                <span>Firebase / Heroku</span>
+                <span>78%</span>
               </div>
-              <div class="line mysql"></div>
+              <div class="line Firebase"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>Ruby on Rails / SQL </span>
+                <span>73%</span>
+              </div>
+              <div class="line Ruby_on_Rails"></div>
             </div>
           </div>
         </div>
