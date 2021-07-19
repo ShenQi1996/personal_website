@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import profile from "../images/p1.jpg";
+import profile from "../images/pro1.jpg";
 
 function About() {
   return (
@@ -24,7 +24,7 @@ function About() {
               represent me, and appreciate people that helped me.
             </p>
             <a
-              href="https://drive.google.com/file/d/1SdeVZRsKk74etZlTCRWrYKIG7rhewkYu/view?usp=sharing"
+              href="https://docs.google.com/document/d/1Fc7jn9HGnB6pDHDO0snCIQeUU7JJnMJW/edit"
               target="_blank"
             >
               Download CV
